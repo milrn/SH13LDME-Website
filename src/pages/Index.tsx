@@ -18,7 +18,7 @@ const Index = () => {
   }
 
   const openGitHub = () => {
-    window.open('https://github.com/mi-lrn/SH13LDME', '_blank')
+    window.open('https://github.com/milrn/SH13LDME', '_blank')
   }
 
   return (
@@ -211,15 +211,15 @@ const Index = () => {
           </motion.div>
           
                       <div className="w-full flex flex-col items-center max-w-xl mx-auto space-y-3 sm:space-y-4 px-2 sm:px-4">
-              <DownloadButton href="https://github.com/mi-lrn/SH13LDME/releases/download/v1.0.0/SH13LDME-Setup-x64.exe">
+              <DownloadButton href="https://github.com/milrn/SH13LDME/releases/download/v1.0.0/SH13LDME-Setup-x64.exe">
                 Download SH13LDME© v1 (x64)
               </DownloadButton>
               
-              <DownloadButton href="https://github.com/mi-lrn/SH13LDME/releases/download/v1.0.0/SH13LDME-Setup-arm64.exe">
+              <DownloadButton href="https://github.com/milrn/SH13LDME/releases/download/v1.0.0/SH13LDME-Setup-arm64.exe">
                 Download SH13LDME© v1 (arm64)
               </DownloadButton>
               
-              <DownloadButton href="https://github.com/mi-lrn/SH13LDME/releases/download/v1.0.0/SH13LDME-Setup-ia32.exe">
+              <DownloadButton href="https://github.com/milrn/SH13LDME/releases/download/v1.0.0/SH13LDME-Setup-ia32.exe">
                 Download SH13LDME© v1 (ia32)
               </DownloadButton>
           </div>
@@ -259,7 +259,7 @@ const Index = () => {
               <h3 className="text-lg font-semibold mb-4 text-foreground">Community</h3>
               <div className="flex gap-4">
                 <Button variant="ghost" size="sm">
-                  <a href="https://github.com/mi-lrn/SH13LDME" target="_blank" rel="noopener noreferrer" className="transition-colors duration-200 rounded-full hover:bg-[#29abe0]/90">
+                  <a href="https://github.com/milrn/SH13LDME" target="_blank" rel="noopener noreferrer" className="transition-colors duration-200 rounded-full hover:bg-[#29abe0]/90">
                     <Github size={16} />
                   </a>
                 </Button>
