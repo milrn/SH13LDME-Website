@@ -29,7 +29,7 @@ export default function Navigation({ extraTabs = [] }: { extraTabs?: Tab[] }) {
     if (section === 'download') {
       document.getElementById('downloads')?.scrollIntoView({ behavior: 'smooth' })
     } else if (section === 'github') {
-      window.open('https://github.com/mi-lrn/SH13LDME', '_blank')
+      window.open('https://github.com/milrn/SH13LDME', '_blank')
     } else if (section === 'home') {
       const heroSection = document.querySelector('section')
       heroSection ? heroSection.scrollIntoView({ behavior: 'smooth' }) : window.scrollTo({ top: 0, behavior: 'smooth' })
@@ -56,7 +56,7 @@ export default function Navigation({ extraTabs = [] }: { extraTabs?: Tab[] }) {
           <NavItem 
             icon={documentationTab.icon} 
             label={documentationTab.label} 
-            onClick={() => window.open('https://github.com/mi-lrn/SH13LDME/blob/main/README.md', '_blank')} 
+            onClick={() => window.open('https://github.com/milrn/SH13LDME/blob/main/README.md', '_blank')} 
           />
         )}
         <NavItem 
